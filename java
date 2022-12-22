@@ -1,4 +1,12 @@
-this is my java file
-this file is created to write java code
-java file is completly filled with java codes
-adding some extra content to this file
+class Main {
+
+  public static void main(String[] args) {
+    
+    int first = 10;
+    int second = 20;
+
+    // add two numbers
+    int sum = first + second;
+    System.out.println(first + " + " + second + " = "  + sum);
+  }
+}
